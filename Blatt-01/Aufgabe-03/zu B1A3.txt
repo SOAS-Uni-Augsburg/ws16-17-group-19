@@ -1,0 +1,7 @@
+zu a)
+	Das Drücken des Buttons führt zu einem plötzlichen Massensterben von dem sich die Turtles schnell wieder erhohlen können.
+	Zudem steigt die Anzahl der Grasfelder kurz an und fällt wieder ab, wenn sich die Turtles erholen.
+	Wenn die krankheit aggressiever ist, dann sinkt die Anzahl der Turtles stärker.
+zu c)
+	Das spontane Nahrungsangebot sorgt dafür, dass die Anzahl der Population kurz ansteigt.
+	Wenn Wachstum und Krankheit zeitlich zusammenliegen sort dies dafür, dass sich die Population schneller erholt und nach der Erholungdsphase sogar noch eine kurze Wachstumsphase erlebt.

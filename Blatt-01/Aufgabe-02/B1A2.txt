@@ -1,0 +1,25 @@
+Emergenz ist die Herausbildung von neuen Eigenschaften oder Strukturen eines Systems infolge des Zusammenspiels seiner Elemente.
+
+Beispiel 1 Biene:
+a)
+	Bienen sind kaltblüter -> können in der Gruppe die Temperatur dauerhaft halten
+b)
+	Agenten: Bienenkönigin, Drohne, Arbeiterbiene
+	Kommunizieren untereinander über Tanzsprache. Darüber können sie mehrere Arten von Informationen wie z.B. über Futterquellen übermittelt werden.
+
+Beispiel 2 Gehirn: 
+a)
+	Nervenzellen kommuniziern über Synapsen miteinander -> aus dem Zusammenspiel aller Nervenzellen emergieren Aktivitätsmuster, die die eigentliche Gehirntätigkeit ausmachen
+b)
+	Agenten Beispiel 2: Nervenzellen
+	Kommunizieren untereinander über Synapsen. Stehen über Botenstoffe mit Muskell- und Drüsenzellen in kontakt. Empfangen Erregugngen und reagieren auf diese.
+	
+	
+
+Quellen:
+https://de.wikipedia.org/wiki/Emergenz
+https://de.wikipedia.org/wiki/Bien
+https://de.wikipedia.org/wiki/Honigbienen
+https://de.wikipedia.org/wiki/Tanzsprache
+https://de.wikipedia.org/wiki/Gehirn
+https://de.wikipedia.org/wiki/Nervenzelle
