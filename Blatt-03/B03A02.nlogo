@@ -24,7 +24,10 @@ end
 to go
   ; random move
   move
-  bla
+  calcEntropy
+  if ticks = 600 [
+    stop
+  ]
   tick
 end
 
@@ -35,8 +38,12 @@ to move
   ]
 end
 
-to bla
-  set entropy (- sum [ifelse-value (((count turtles-here) / bean-count) = 0) [ 0 ] [ ((count turtles-here) / bean-count) * (log (count turtles-here / bean-count) 2) ]] of patches)
+to calcEntropy
+  set entropy (-1) * sum [
+    ifelse-value (count turtles-here / bean-count = 0)
+      [ 0 ]
+      [ count turtles-here / bean-count * log (count turtles-here / bean-count) 2 ]
+  ] of patches
 end
 @#$#@#$#@
 GRAPHICS-WINDOW
@@ -139,7 +146,7 @@ Entropy
 NIL
 NIL
 0.0
-10.0
+600.0
 0.0
 11.0
 true
@@ -147,7 +154,7 @@ false
 "" ""
 PENS
 "entropy" 1.0 0 -16777216 true "" "plot entropy"
-"max entropy" 1.0 0 -7500403 true "" "plot log (count patches) 2"
+"max entropy" 1.0 0 -7500403 true "" "plot log bean-count 2"
 
 MONITOR
 12
@@ -166,7 +173,7 @@ MONITOR
 209
 388
 max entropy
-log (count patches) 2
+log bean-count 2
 17
 1
 11
